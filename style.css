@@ -128,7 +128,7 @@ body {
 }
 
 .nav-lista a {
-    color: #ffffff;
+    color: black;
     text-decoration: none;
     font-weight: bold;
     font-family: "Bebas Neue", sans-serif;
@@ -141,7 +141,7 @@ body {
     content: " ";
     width: 0%;
     height: 2px;
-    background-color: #fff;
+    background-color: #000;
     position: absolute;
     bottom: 0;
     left: 0;
