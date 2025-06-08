@@ -114,23 +114,42 @@ body {
 }
 
 .nav-links {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 15px;
+    display: flex;
+    justify-items: center;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    margin-left: 290px;
 }
 
-.nav-links li a {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 8px 12px;
-  border-radius: 6px;
-  transition: background 0.3s, color 0.3s;
+.nav-lista {
+    display: flex;
+    align-items: center;
 }
 
-.nav-links li a:hover {
-  background-color: #2e563b;
+.nav-lista a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    position: relative;
+    align-items: center;
+}
+
+.nav-lista ::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-lista:hover ::after {
+    width: 100%;
 }
 
 #menu-toggle:checked~.nav-links {
