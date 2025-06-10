@@ -84,8 +84,8 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #4ea663;
-  color: black;
+  background-color: #3f704d;
+  color: white;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -104,6 +104,13 @@ body {
   transform: scale(1.1);
 }
 
+.site-title {
+  flex: 1;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 .hamburger {
   display: none;
   background: none;
@@ -114,41 +121,22 @@ body {
 }
 
 .nav-links {
-    display: flex;
-    justify-items: center;
-    gap: 20px;
-    list-style: none;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 15px;
 }
 
-.nav-lista {
-    display: flex;
-    align-items: center;
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.3s, color 0.3s;
 }
 
-.nav-lista a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
-    position: relative;
-    align-items: center;
-}
-
-.nav-lista ::after {
-    content: " ";
-    width: 0%;
-    height: 2px;
-    background-color: #000;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: 0.5s ease-in-out;
-}
-
-.nav-lista:hover ::after {
-    width: 100%;
+.nav-links li a:hover {
+  background-color: #2e563b;
 }
 
 #menu-toggle:checked~.nav-links {
@@ -160,101 +148,18 @@ main {
   margin-top: 120px;
 }
 
-.titulo-principal {
-    display: flex;
-    justify-content: center;
-    font-family: 'Times New Roman', serif;
-    font-size: 70px;
+section {
+  margin-bottom: 40px;
+  scroll-margin-top: 130px;
 }
 
-.titulo-principal-pt2 {
-    display: flex;
-    justify-content: center;
-    font-family: fantasy;
-    font-size: 50px;
+section h1,
+section h2 {
+  margin-bottom: 20px;
 }
 
-#primeirotexto {
-    display: flex;
-    flex-direction: row;
-    background-color: #000;
-    align-items: center;
-    padding: 30px;
-    border-radius: 30px;
-    margin: 40px 40px;
-}
-
-.imagem-planta {
-    border-radius: 30px;
-    height: auto;
-    width: 350px;
-}
-
-.texto-1 {
-    font-size: 25px;
-    font-family: "Libre Baskerville", serif;
-    padding: 30px;
-    color: white;
-}
-
-#segundotexto {
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: #6bb77d;
-    align-items: center;
-    padding: 30px;
-    border-radius: 30px;
-    margin: 40px 40px;
-}
-
-.imagem-cidade {
-    border-radius: 30px;
-    height: auto;
-    width: 350px;
-}
-
-.texto-2 {
-    color: black;
-    font-size: 25px;
-    font-family: "Libre Baskerville", serif;
-    padding: 30px;
-}
-
-#terceirotexto {
-    display: flex;
-    flex-direction: row;
-    background-color: #000;
-    align-items: center;
-    padding: 30px;
-    border-radius: 30px;
-    margin: 40px 40px;
-}
-
-.imagem-colheitadeira {
-    border-radius: 30px;
-    height: auto;
-    width: 350px;
-}
-
-.texto-3 {
-    font-size: 25px;
-    font-family: "Libre Baskerville", serif;
-    padding: 30px;
-    color: white;
-}
-
-.titulo-do-texto {
-    display: flex;
-    justify-content: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 40px;
-}
-
-.texto-4 {
-    color: #000;
-    margin: 40px 40px;
-    font-size: 25px;
-    font-family: "Libre Baskerville", serif;
+section p {
+  margin-bottom: 10px;
 }
 
 /* Animações de entrada */
