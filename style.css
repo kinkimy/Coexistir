@@ -453,25 +453,25 @@ footer {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding: 10px;
-    gap: 10px; /* Adicionado */
+    gap: 10px;
     z-index: 1001;
-    font-size: 14px; /* Adicionado */
+    font-size: 14px;
   }
 
   .nav-links li a {
-    background-color: #4ea663;
-    color: white; /* cor do texto */
+    background-color: #4f9660;
+    color: white;
     padding: 8px;
     border-radius: 6px;
     text-align: center;
     font-weight: bold;
     display: block;
-    transition: background-color 0.3s; /* para hover suave */
+    transition: background-color 0.3s;
   }
 
   .nav-links li a:hover {
-    background-color: #2e563b; /* Hover igual ao acessibilidade */
-    color: white; /* hover mantém texto branco */
+    background-color: #4ea663;
+    color: white;
   }
 
   .hamburger {
