@@ -174,6 +174,29 @@ section p {
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
+/* Textos */
+#primeirotexto {
+    display: flex;
+    flex-direction: row;
+    background-color: #6bb77d;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 40px 40px;
+}
+
+.imagem-planta {
+    border-radius: 30px;
+    height: auto;
+    width: 350px;
+}
+
+.texto-1 {
+    font-size: 25px;
+    font-family: "Libre Baskerville", serif;
+    padding: 30px;
+}
+
 /* Carrossel */
 .carousel-wrapper {
   position: relative;
