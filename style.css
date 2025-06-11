@@ -156,6 +156,7 @@ section {
 section h1,
 section h2 {
   margin-bottom: 20px;
+  align-items: center;
 }
 
 section p {
