@@ -227,7 +227,7 @@ section p {
   border-radius: 12px;
 }
 
-/* Carrosel Manual */
+/* Carrossel Manual */
 #img1:checked~.acessibilidade-wrapper .carousel-images {
   transform: translateX(0);
 }
@@ -240,7 +240,7 @@ section p {
   transform: translateX(-200%);
 }
 
-/* Carrosel Automático */
+/* Carrossel Automático */
 #carousel-play:checked~.acessibilidade-wrapper .carousel-images {
   animation: autoSlide 9s infinite;
 }
@@ -281,7 +281,7 @@ section p {
   height: 50px;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
