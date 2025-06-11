@@ -79,7 +79,7 @@ body {
   background-color: #2e563b;
 }
 
-/* Header */
+/* Cabeçalho */
 .header {
   position: fixed;
   top: 0;
@@ -95,7 +95,7 @@ body {
 }
 
 .logo img {
-  width: 150px;
+  width: 100px;
   height: auto;
   transition: transform 0.3s;
 }
@@ -226,7 +226,7 @@ section p {
   border-radius: 12px;
 }
 
-/* Manual */
+/* Carrosel Manual */
 #img1:checked~.acessibilidade-wrapper .carousel-images {
   transform: translateX(0);
 }
@@ -239,7 +239,7 @@ section p {
   transform: translateX(-200%);
 }
 
-/* Automático */
+/* Carrosel Automático */
 #carousel-play:checked~.acessibilidade-wrapper .carousel-images {
   animation: autoSlide 9s infinite;
 }
@@ -332,6 +332,7 @@ section p {
   visibility: visible;
 }
 
+/* Vídeo */
 .video-container {
   max-width: 800px;
   margin: 0 auto;
@@ -343,8 +344,9 @@ video {
   margin-top: 10px;
 }
 
+/* Rodapé */
 footer {
-  background-color: #3f704d;
+  background-color: #4f9660;
   color: white;
   text-align: center;
   padding: 20px;
@@ -361,6 +363,7 @@ footer {
   vertical-align: middle;
 }
 
+/* Quiz */
 .quiz-form {
   display: flex;
   flex-direction: column;
