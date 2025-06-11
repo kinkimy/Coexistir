@@ -84,8 +84,8 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #3f704d;
-  color: white;
+  background-color: #4ea663;
+  color: black;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -178,7 +178,7 @@ section p {
 #primeirotexto {
     display: flex;
     flex-direction: row;
-    background-color: #6bb77d;
+    background-color: #000;
     align-items: center;
     padding: 30px;
     border-radius: 30px;
@@ -195,6 +195,7 @@ section p {
     font-size: 25px;
     font-family: "Libre Baskerville", serif;
     padding: 30px;
+    color: white;
 }
 
 /* Carrossel */
