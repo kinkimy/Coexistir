@@ -1,4 +1,4 @@
-/* Reset e base */
+/* RESET E BASE */
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Acessibilidade */
+/* ACESSIBILIDADE */
 #toggle-font:checked~.acessibilidade-wrapper {
   font-size: 1.25rem;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 #toggle-contrast:checked~.acessibilidade-wrapper a:not(.nav-links a) {
-  color: #ff0;
+  color: white;
 }
 
 .accessibility-fixed {
@@ -79,7 +79,7 @@ body {
   background-color: #2e563b;
 }
 
-/* Cabeçalho */
+/* HEADER */
 .header {
   position: fixed;
   top: 0;
@@ -163,7 +163,7 @@ section p {
   margin-bottom: 10px;
 }
 
-/* Animações de entrada */
+/* ANIMAÇÕES DE ENTRADA */
 .reveal.visible {
   opacity: 1;
   transform: translateY(0);
@@ -175,7 +175,7 @@ section p {
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-/* Textos */
+/* TEXTOS E IMAGENS */
 #primeirotexto {
     display: flex;
     flex-direction: row;
@@ -242,7 +242,7 @@ section p {
     color: white;
 }
 
-/* Carrossel */
+/* CARROSSEL */
 .carousel-wrapper {
   position: relative;
   max-width: 400px;
@@ -270,7 +270,7 @@ section p {
   border-radius: 12px;
 }
 
-/* Carrossel Manual */
+/* CARROSSEL MANUAL */
 #img1:checked~.acessibilidade-wrapper .carousel-images {
   transform: translateX(0);
 }
@@ -283,7 +283,7 @@ section p {
   transform: translateX(-200%);
 }
 
-/* Carrossel Automático */
+/* CARROSSEL AUTOMÁTICO */
 #carousel-play:checked~.acessibilidade-wrapper .carousel-images {
   animation: autoSlide 9s infinite;
 }
@@ -376,7 +376,7 @@ section p {
   visibility: visible;
 }
 
-/* Vídeo */
+/* VÍDEO */
 .video-container {
   max-width: 800px;
   margin: 0 auto;
@@ -388,7 +388,7 @@ video {
   margin-top: 10px;
 }
 
-/* Rodapé */
+/* FOOTER */
 footer {
   background-color: #4f9660;
   color: white;
@@ -407,7 +407,7 @@ footer {
   vertical-align: middle;
 }
 
-/* Quiz */
+/* QUIZ */
 .quiz-form {
   display: flex;
   flex-direction: column;
