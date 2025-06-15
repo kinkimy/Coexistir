@@ -157,6 +157,7 @@ section h1,
 section h2 {
   margin-bottom: 20px;
   align-items: center;
+  justify-content: center;
 }
 
 section p {
@@ -462,7 +463,7 @@ footer {
   display: none;
 }
 
-/* Controle da Visibilidade com Checkbox */
+/* CONTROLE DE VISIBILIDADE COM CHECKBOX */
 #quiz-toggle:checked ~ .quiz-form {
   display: none;
 }
@@ -471,7 +472,7 @@ footer {
   display: block;
 }
 
-/* Responsivo */
+/* RESPONSIVIDADE */
 @media (max-width: 768px) {
   .quiz-form {
     padding: 0 10px;
