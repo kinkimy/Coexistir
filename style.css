@@ -238,9 +238,9 @@ section p {
 }
 
 .texto-3 {
+    color: white;
     font-family: "Libre Baskerville", serif;
     padding: 30px;
-    color: white;
 }
 
 /* CARROSSEL */
