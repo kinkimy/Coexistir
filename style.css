@@ -189,10 +189,54 @@ section p {
 .imagem-planta {
     border-radius: 30px;
     height: auto;
-    width: 200px;
+    width: 350px;
 }
 
 .texto-1 {
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    padding: 30px;
+}
+
+#segundotexto {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #6bb77d;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 40px 40px;
+}
+
+.imagem-cidade {
+    border-radius: 30px;
+    height: auto;
+    width: 350px;
+}
+
+.texto-2 {
+    color: black;
+    font-family: "Libre Baskerville", serif;
+    padding: 30px;
+}
+
+#terceirotexto {
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 40px 40px;
+}
+
+.imagem-colheitadeira {
+    border-radius: 30px;
+    height: auto;
+    width: 350px;
+}
+
+.texto-3 {
     font-family: "Libre Baskerville", serif;
     padding: 30px;
     color: white;
