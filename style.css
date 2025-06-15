@@ -177,6 +177,10 @@ section p {
 }
 
 /* TEXTOS E IMAGENS */
+.titulo {
+  text-align: center;
+}
+
 #primeirotexto {
     display: flex;
     flex-direction: row;
