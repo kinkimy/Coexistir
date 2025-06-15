@@ -246,6 +246,10 @@ section p {
     padding: 30px;
 }
 
+.texto-4 {
+  padding: 50px;
+}
+
 /* CARROSSEL */
 .carousel-wrapper {
   position: relative;
