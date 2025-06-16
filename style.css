@@ -388,7 +388,9 @@ section p {
 .video-container {
   max-width: 800px;
   margin: 0 auto;
-  background-color: #000;
+  background-color: #149b33;
+  border-radius: 10px;
+  border: 30px;
 }
 
 video {
@@ -398,7 +400,7 @@ video {
 }
 
 .video-container :hover{
-  border: 3px solid rgb(63, 196, 63);
+  border: 3px solid rgb(2, 2, 2);
 }
 
 /* FOOTER */
