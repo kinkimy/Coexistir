@@ -182,7 +182,7 @@ section p {
 #primeirotexto {
     display: flex;
     flex-direction: row;
-    background-color: #000;
+    background-color: #6bb77d;
     align-items: center;
     padding: 30px;
     border-radius: 30px;
@@ -196,7 +196,7 @@ section p {
 }
 
 .texto-1 {
-    color: white;
+    color: black;
     font-family: "Libre Baskerville", serif;
     padding: 30px;
 }
@@ -204,7 +204,7 @@ section p {
 #segundotexto {
     display: flex;
     flex-direction: row-reverse;
-    background-color: #6bb77d;
+    background-color: #000;
     align-items: center;
     padding: 30px;
     border-radius: 30px;
@@ -218,7 +218,7 @@ section p {
 }
 
 .texto-2 {
-    color: black;
+    color: white;
     font-family: "Libre Baskerville", serif;
     padding: 30px;
 }
@@ -226,7 +226,7 @@ section p {
 #terceirotexto {
     display: flex;
     flex-direction: row;
-    background-color: #000;
+    background-color: #6bb77d;
     align-items: center;
     padding: 30px;
     border-radius: 30px;
@@ -240,7 +240,7 @@ section p {
 }
 
 .texto-3 {
-    color: white;
+    color: black;
     font-family: "Libre Baskerville", serif;
     padding: 30px;
 }
