@@ -31,6 +31,8 @@ body {
   color: white;
 }
 
+#toggle-contrast:checked~.acessibilidade-wrapper 
+
 .accessibility-fixed {
   position: fixed;
   right: 10px;
