@@ -496,7 +496,7 @@ footer {
   display: block;
 }
 
-/* RESPONSIVIDADE */
+/* RESPONSIVIDADE DO QUIZ*/
 @media (max-width: 768px) {
   .quiz-form {
     padding: 0 10px;
@@ -507,7 +507,7 @@ footer {
   }
 }
 
-
+/* RESPONSIVIDADE DOS LINKS HEADER */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -544,5 +544,21 @@ footer {
 
   .hamburger {
     display: block;
+  }
+}
+
+/* RESPONSIVIDADE DOS TEXTOS */
+@media (max-width: 768px) {
+  .imagem-texto {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imagem-texto img {
+    width: 100%;
+  }
+
+  .imagem-texto .texto {
+    width: 100%;
   }
 }
