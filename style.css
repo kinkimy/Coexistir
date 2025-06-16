@@ -136,7 +136,7 @@ body {
 }
 
 .nav-links li a:hover {
-  background-color: #2e563b;
+  background-color: #6bb77d;
 }
 
 #menu-toggle:checked~.nav-links {
