@@ -35,14 +35,14 @@ body {
   position: fixed;
   right: 10px;
   top: 150px;
-  background: #4f9660;
+  background: #6bb77d;
   color: black;
   border: 2px solid #fff;
   padding: 8px 12px;
   border-radius: 50%;
   cursor: pointer;
   z-index: 1002;
-  font-size: 30px;
+  font-size: 18px;
 }
 
 #toggle-accessibility:checked~.acessibilidade-wrapper .accessibility-menu {
