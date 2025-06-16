@@ -59,9 +59,9 @@ Embora desenvolvido com tecnologias básicas, o site apresenta **recursos avanç
 │
 ├── index.html             # Página principal do site
 ├── style.css              # Estilos e funcionalidades interativas com CSS
-├── /img                   # Imagens e vídeos utilizados
+├── /img                   # Imagens utilizadas
 │   ├── campo/             # Imagens do campo (Planta, Colheitadeira)
 │   ├── cidade/            # Imagem do centro urbano
 │   ├── logo/              # Logo do site
-│   └── mídia social       # Logos do Instagram, GitHub e WhatsApp
-│   └── cadeia produtiva.mp4  # Vídeo com entrevistas
+│   └── mídia social       # Logos do Instagram e GitHub
+│   └── cadeia produtiva.mp4  # Vídeo com entrevista
