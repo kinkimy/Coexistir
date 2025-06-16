@@ -31,7 +31,7 @@ body {
   color: white;
 }
 
-#toggle-contrast:checked~.acessibilidade-wrapper 
+#toggle-contrast:checked~ 
 
 .accessibility-fixed {
   position: fixed;
@@ -189,7 +189,7 @@ section p {
   text-align: center;
 }
 
-#primeirotexto {
+.primeirotexto {
     display: flex;
     flex-direction: row;
     background-color: #6bb77d;
@@ -211,7 +211,7 @@ section p {
     padding: 30px;
 }
 
-#segundotexto {
+.segundotexto {
     display: flex;
     flex-direction: row-reverse;
     background-color: #000;
@@ -233,7 +233,7 @@ section p {
     padding: 30px;
 }
 
-#terceirotexto {
+.terceirotexto {
     display: flex;
     flex-direction: row;
     background-color: #6bb77d;
