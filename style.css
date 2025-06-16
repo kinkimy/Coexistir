@@ -84,8 +84,8 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #4ea663;
-  color: black;
+  background-color: #000;
+  color: white;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -114,7 +114,7 @@ body {
   display: none;
   background: none;
   font-size: 24px;
-  color: rgb(5, 5, 5);
+  color: rgb(255, 255, 255);
   border: none;
   cursor: pointer;
 }
@@ -126,7 +126,7 @@ body {
 }
 
 .nav-links li a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 12px;
@@ -405,8 +405,8 @@ video {
 
 /* FOOTER */
 footer {
-  background-color: #4ea663;
-  color: black;
+  background-color: #000;
+  color: white;
   text-align: center;
   padding: 20px;
 }
@@ -432,7 +432,7 @@ footer {
 }
 
 .quiz-question {
-  background-color: #4f9660;
+  background-color: #53c56e;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
