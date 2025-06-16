@@ -18,9 +18,11 @@
 Este projeto se destaca por:
 
 - ✅ **Interface acessível:** com recursos para pessoas com deficiência visual ou baixa visão;
-- ✅ **Conteúdo autoral:** textos criados originalmente com base em estudos históricos e fontes confiáveis e vídeo também criado originalmente a partir de uma entrevista e editado no aplicativo CapCut;
+- ✅ **Conteúdo autoral:** textos criados originalmente com base em estudos históricos e fontes confiáveis;
 - ✅ **Quiz pedagógico:** promove o reforço da aprendizagem;
-- ✅ **Responsividade:** layout adaptado a dispositivos móveis.
+- ✅ **Responsividade:** layout adaptado a dispositivos móveis;
+- ✅ **Produção de imagens:** foi utilizado o aplicativo de editor de imagens Canva para a produção da Logo e um esboço de como seria o projeto no fim de tudo;
+- ✅ **Produção do vídeo:** gravado pelo celular e editado no aplicativo CapCut, com a permissão dos direitos de imagens do entrevistado e do tradutor de libras.
 
 ---
 
