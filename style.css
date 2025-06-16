@@ -33,7 +33,7 @@ body {
 
 #toggle-contrast:checked~.acessibilidade-wrapper .segundotexto {
   background-color: #ffffff;
-  color: black;
+  color: black !important;
 }
 
 /* DETALHES DO BOTÃO DE ACESSIBILIDADE */
