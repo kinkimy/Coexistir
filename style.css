@@ -127,6 +127,24 @@ body {
 }
 
 /* LINKS DO NAVEGADOR */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.nav-links li a:hover {
+  background-color: #4ea663;
+}
 
 
 #menu-toggle:checked~.nav-links {
