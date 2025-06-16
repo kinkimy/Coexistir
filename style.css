@@ -31,7 +31,10 @@ body {
   color: white;
 }
 
-#toggle-contrast:checked~ 
+#toggle-contrast:checked~ .segundotexto {
+  background-color: #ccc;
+  color: black;
+}
 
 .accessibility-fixed {
   position: fixed;
