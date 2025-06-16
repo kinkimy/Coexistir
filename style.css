@@ -31,8 +31,16 @@ body {
   color: white;
 }
 
+#toggle-contrast:checked~.acessibilidade-wrapper .primeirotexto {
+  background-color: #3d9151;
+}
+
 #toggle-contrast:checked~.acessibilidade-wrapper .segundotexto {
-  background-color: #2e6907;
+  background-color: #6bb77d;
+}
+
+#toggle-contrast:checked~.acessibilidade-wrapper .terceirotexto {
+  background-color: #3d9151;
 }
 
 /* DETALHES DO BOTÃO DE ACESSIBILIDADE */
