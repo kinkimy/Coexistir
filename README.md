@@ -1,4 +1,4 @@
-# 🌐 COEXISTIR
+# 🚜🌿 COEXISTIR
 
 **COEXISTIR** é um site educacional e interativo que explora a relação histórica e tecnológica entre o campo e a cidade. Criado com o objetivo de promover a reflexão sobre a transição entre o passado agrário e o futuro industrial, o projeto utiliza recursos visuais, textuais e interativos para envolver o usuário de forma didática, acessível e criativa.
 
