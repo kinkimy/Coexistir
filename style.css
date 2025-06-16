@@ -31,6 +31,11 @@ body {
   color: white;
 }
 
+#toggle-contrast:checked~.acessibilidade-wrapper .segundotexto {
+  background-color: #ffffff;
+  color: black;
+}
+
 /* DETALHES DO BOTÃO DE ACESSIBILIDADE */
 .accessibility-fixed {
   position: fixed;
@@ -122,35 +127,7 @@ body {
 }
 
 /* LINKS DO NAVEGADOR */
-.nav-links {
-    display: flex;
-    align-items: center;
-}
 
-.nav-links a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
-    position: relative;
-    align-items: center;
-}
-
-.nav-links ::after {
-    content: " ";
-    width: 0%;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: 0.5s ease-in-out;
-}
-
-.nav-links:hover ::after {
-    width: 100%;
-}
 
 #menu-toggle:checked~.nav-links {
   display: flex;
