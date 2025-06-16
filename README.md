@@ -9,7 +9,7 @@
 - **Tema:** Conexão campo-cidade na perspectiva da Revolução Industrial;
 - **Objetivo:** Educar, informar e promover a consciência crítica sobre transformações sociais e econômicas que foram geradas;
 - **Público-alvo:** Estudantes, educadores e interessados em história, geografia e sociologia;
-- **Tecnologia utilizada:** HTML5 + CSS3 (sem JavaScript).
+- **Tecnologia utilizada:** HTML5 + CSS3.
 
 ---
 
@@ -18,8 +18,7 @@
 Este projeto se destaca por:
 
 - ✅ **Interface acessível:** com recursos para pessoas com deficiência visual ou baixa visão;
-- ✅ **Interação sem JavaScript:** utilizando apenas HTML e CSS puro para controlar quiz, carrossel e menus;
-- ✅ **Conteúdo autoral:** textos criados originalmente com base em estudos históricos e fontes confiáveis;
+- ✅ **Conteúdo autoral:** textos criados originalmente com base em estudos históricos e fontes confiáveis e vídeo também criado originalmente a partir de uma entrevista e editado no aplicativo CapCut;
 - ✅ **Quiz pedagógico:** promove o reforço da aprendizagem;
 - ✅ **Responsividade:** layout adaptado a dispositivos móveis.
 
@@ -33,7 +32,6 @@ Embora desenvolvido com tecnologias básicas, o site apresenta **recursos avanç
   - Mostrar/ocultar menus;
   - Controlar carrossel de imagens;
   - Ativar/desativar acessibilidade (alto contraste e aumento de fonte);
-  - Gerar feedback visual no quiz sem script;
   - Uso de seletores `:checked` e `:target` em CSS para simular comportamentos dinâmicos;
   - Estrutura semântica bem definida para facilitar a navegação e a acessibilidade.
 
