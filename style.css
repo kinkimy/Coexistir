@@ -31,11 +31,6 @@ body {
   color: white;
 }
 
-#toggle-contrast:checked~.acessibilidade-wrapper a:not(.segundotexto) {
-  background-color: #ccc;
-  color: black;
-}
-
 /* DETALHES DO BOTÃO DE ACESSIBILIDADE */
 .accessibility-fixed {
   position: fixed;
