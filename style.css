@@ -143,11 +143,11 @@ body {
 }
 
 /* LINKS DO NAVEGADOR */
-/* .nav-links {
+.nav-links {
   list-style: none;
   display: flex;
   gap: 15px;
-} */
+}
 
 .menu a {
   position: relative;
