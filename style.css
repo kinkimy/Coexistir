@@ -141,7 +141,33 @@ body {
   gap: 15px;
 }
 
-.nav-links li a {
+.menu a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  transition: color 0.3s;
+}
+
+.menu a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff4500;
+  transition: width 0.3s ease-in-out;
+}
+
+.menu a:hover::after {
+  width: 100%;
+}
+
+.menu a:hover {
+  color: white;
+
+/* .nav-links li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -152,7 +178,7 @@ body {
 
 .nav-links li a:hover {
   background-color: #4ea663;
-}
+} */
 
 
 #menu-toggle:checked~.nav-links {
