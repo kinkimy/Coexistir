@@ -32,11 +32,7 @@ body {
 }
 
 #toggle-contrast:checked~.acessibilidade-wrapper .segundotexto {
-  background-color: #ffffff;
-}
-
-#toggle-contrast:checked~.acessibilidade-wrapper .texto-2 {
-  color: black;
+  background-color: #2e6907;
 }
 
 /* DETALHES DO BOTÃO DE ACESSIBILIDADE */
