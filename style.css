@@ -31,7 +31,7 @@ body {
   color: white;
 }
 
-#toggle-contrast:checked~ .segundotexto {
+#toggle-contrast:checked~.acessibilidade-wrapper a:not(.segundotexto) {
   background-color: #ccc;
   color: black;
 }
