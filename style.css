@@ -353,6 +353,7 @@ section p {
   background-color: #2e563b;
 }
 
+/* CONTROLES PARA MUDAR A IMAGEM DO CARROSSEL */
 .control-prev,
 .control-next {
   position: absolute;
