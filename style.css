@@ -116,7 +116,7 @@ body {
 .titulo-site {
   font-size: 3rem;
   font-weight: bold;
-  background: linear-gradient(to right, #4b3b2a 50%, #444 50%);
+  background: linear-gradient(to right, #ccc 50%, #53c56e 50%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
