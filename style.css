@@ -114,10 +114,19 @@ body {
 }
 
 .titulo-site {
-  flex: 1;
-  text-align: center;
+  font-size: 3rem;
   font-weight: bold;
-  font-size: 25px;
+  background: linear-gradient(to right, #4b3b2a 50%, #444 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: background-position 0.5s ease;
+  background-size: 200% auto;
+  background-position: left center;
+}
+
+.titulo-site:hover {
+  background-position: right center;
 }
 
 .hamburger {
