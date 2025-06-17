@@ -32,16 +32,30 @@ body {
 }
 
 #toggle-contrast:checked~.acessibilidade-wrapper .primeirotexto {
-  background-color: #3d9151;
+  background-color: #23532e;
+}
+
+#toggle-contrast:checked~.acessibilidade-wrapper .texto-1 {
+  background-color: #ffffff;
 }
 
 #toggle-contrast:checked~.acessibilidade-wrapper .segundotexto {
   background-color: #6bb77d;
 }
 
-#toggle-contrast:checked~.acessibilidade-wrapper .terceirotexto {
-  background-color: #3d9151;
+#toggle-contrast:checked~.acessibilidade-wrapper .texto-2 {
+  background-color: #000000;
 }
+
+
+#toggle-contrast:checked~.acessibilidade-wrapper .terceirotexto {
+  background-color: #23532e;
+}
+
+#toggle-contrast:checked~.acessibilidade-wrapper .texto-3 {
+  background-color: #ffffff;
+}
+
 
 /* DETALHES DO BOTÃO DE ACESSIBILIDADE */
 .accessibility-fixed {
