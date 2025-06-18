@@ -1,6 +1,6 @@
 # 🚜🌿 COEXISTIR
 
-**COEXISTIR** é um site educacional e interativo que explora a relação histórica e tecnológica entre o campo e a cidade. Criado com o objetivo de promover a reflexão sobre a transição entre o passado agrário e o futuro industrial, o projeto utiliza recursos visuais, textuais e interativos para envolver o usuário de forma didática, acessível e criativa.
+**COEXISTIR** é um site educacional e interativo que explora a relação histórica e tecnológica entre o campo e a cidade. Criado com o objetivo de promover a reflexão sobre a transição entre o passado agrário e o futuro industrial, o projeto utiliza recursos visuais, textuais e interativos para envolver o usuário de forma didática, acessível e criativa. O site também contém um vídeo de uma entrevista particular com o Sr. Sebastião onde ele conta sobre sua história de como era no campo e o que houve para ele ter se mudado para a cidade, um outro detalhe sobre o vídeo da entrevista foi que ele está traduzido em libras por Alan Marlon de Mattos.
 
 ---
 
