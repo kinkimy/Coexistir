@@ -538,7 +538,121 @@ footer {
   display: block;
 }
 
-/* RESPONSIVIDADE DO QUIZ*/
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .titulo-site {
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #339249;
+    padding: 10px 0;
+  }
+
+  #menu-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .primeirotexto,
+  .segundotexto,
+  .terceirotexto {
+    flex-direction: column !important;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .imagem-planta,
+  .imagem-cidade,
+  .imagem-colheitadeira {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .texto-1,
+  .texto-2,
+  .texto-3 {
+    padding: 10px;
+    text-align: justify;
+  }
+
+  .carousel-wrapper {
+    max-width: 100%;
+  }
+
+  .video-container {
+    padding: 0 10px;
+  }
+
+  .quiz-form {
+    padding: 0 15px;
+  }
+
+  .accessibility-menu {
+    width: 160px;
+    font-size: 12px;
+  }
+}
+
+/* Dispositivos até 480px (celulares) */
+@media (max-width: 480px) {
+  html {
+    font-size: 110%;
+  }
+
+  .titulo-site {
+    font-size: 24px;
+  }
+
+  .accessibility-fixed {
+    top: 100px;
+    right: 5px;
+    padding: 6px 10px;
+    font-size: 16px;
+  }
+
+  .carousel-controls {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .carousel-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .control-prev,
+  .control-next {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .quiz-submit-btn {
+    width: 100%;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 15px;
+  }
+}
+
+/* RESPONSIVIDADE DO QUIZ
 @media (max-width: 768px) {
   .quiz-form {
     padding: 0 10px;
@@ -547,10 +661,10 @@ footer {
   .quiz-question {
     padding: 15px;
   }
-}
+} */
 
 /* RESPONSIVIDADE DOS LINKS HEADER */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .nav-links {
     display: none;
     flex-direction: column;
@@ -582,7 +696,7 @@ footer {
   .nav-links li a:hover {
     background-color: #4ea663;
     color: white;
-  }
+  } 
 
   .hamburger {
     display: block;
@@ -590,7 +704,7 @@ footer {
 }
 
 /* RESPONSIVIDADE DOS TEXTOS */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .imagem-texto {
     flex-direction: column;
     text-align: center;
@@ -603,4 +717,4 @@ footer {
   .imagem-texto .texto {
     width: 100%;
   }
-}
+} */
