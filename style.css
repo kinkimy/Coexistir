@@ -314,7 +314,7 @@ section p {
 .video-entrevista {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 40px 20px;
   background-color: #3f704d;
   border-radius: 12px;
   max-width: 900px;
