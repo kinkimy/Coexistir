@@ -180,7 +180,7 @@ body {
   height: 2px;
   width: 0;
   background-color: #fff;
-  transition: widht 0.3s ease;
+  transition: width 0.3s ease;
 }
 
 .nav-links a:hover::after {
