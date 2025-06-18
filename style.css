@@ -305,6 +305,40 @@ section p {
   margin: 40px 40px;
 }
 
+/* VÍDEO */
+.video-entrevista {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #018720;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  margin: 40px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
+
 /* CARROSSEL */
 .carousel-wrapper {
   position: relative;
@@ -439,31 +473,6 @@ section p {
 #img3:checked~.acessibilidade-wrapper .control-prev.img3,
 #img3:checked~.acessibilidade-wrapper .control-next.img3 {
   visibility: visible;
-}
-
-/* VÍDEO */
-.video-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 50%;
-  height: 0;
-  overflow: hidden;
-  border-radius: 12px;
-  margin: 40px auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  box-sizing: border-box;
-  background-color: #018720;
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  border-radius: 12px;
 }
 
 /* FOOTER */
