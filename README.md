@@ -46,9 +46,9 @@ Embora desenvolvido com tecnologias básicas, o site apresenta **recursos avanç
 | 🌙 Acessibilidade       | Alto contraste, ajuste de fonte, navegação por teclado                    |
 | 🧠 Quiz interativo      | 5 perguntas com validação visual e feedback após envio                    |
 | 🎞 Vídeo educativo      | Entrevista particular com uma pessoa que trabalhou no ramo `<video>`                                      |
-| 📸 Carrossel de imagens | Navegação entre imagens sem uso de JavaScript                             |
+| 📸 Carrossel de imagens | Navegação entre imagens                                                  |
 | 📱 Design responsivo    | Interface adaptável a celulares, tablets e desktops                       |
-| 🔗 Redes sociais        | Links externos para Instagram, GitHub e WhatsApp                          |
+| 🔗 Redes sociais        | Links externos para Instagram e GitHub                                   |
 
 ---
 
