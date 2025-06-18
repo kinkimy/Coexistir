@@ -172,8 +172,23 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
+.nav-links li a::after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #fff;
+  transition: widht 0.3s ease;
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
+
 .nav-links li a:hover {
-  background-color: transparent;
+  color: white;
 }
 
 
