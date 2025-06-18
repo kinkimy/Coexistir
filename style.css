@@ -309,11 +309,11 @@ section p {
 .video-entrevista {
   display: flex;
   justify-content: center;
-  padding: 40px 20px;
-  background-color: #018720;
+  padding: 20px;
+  background-color: #3f704d;
   border-radius: 12px;
   max-width: 900px;
-  margin: 40px auto;
+  margin: 40px;
 }
 
 .video-container {
